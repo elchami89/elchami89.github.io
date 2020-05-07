@@ -1,0 +1,223 @@
+html{
+	/*font-family: 'Playfair Display', serif;*/
+	font-family: 'ArmandoSRF';
+	color: #212121;
+}
+#content{
+	max-width: 1200px;
+	margin: auto;
+}
+.brand-logo h1{
+	font-size: 1em;
+	margin: 1.2rem 0 1rem 0;
+}
+@media screen and (max-width: 800px) {
+	.brand-logo h1{
+		margin: 1rem 0 1rem 0;
+		font-size: 0.8em;
+	}
+}
+@media screen and (max-width: 601px) {
+	.brand-logo h1{
+		font-size: 0.6em;
+	}
+}
+@media screen and (max-width: 431px) {
+	.brand-logo h1{
+		font-size: 0.5em;
+	}
+}
+#month{
+	text-align: center;
+	font-weight: bold;
+	font-size: 2.5em;
+	text-transform: uppercase;
+}
+@media screen and (max-width: 380px) {
+	#month{
+		font-size: 2.1em;
+	}
+}
+#day-year,#sun-moon,#fase-moon,#day,#dayWeek,#misa,#texto-titulo,#fiesta{
+	text-align: center;
+}
+#day-year{
+	color: black;
+}
+#day{
+	font-weight: bold;
+	font-size: 10em;
+	margin-top: -60px;
+    margin-bottom: -40px;
+}
+#frase-autor,#texto-autor{
+	text-align: right;
+	text-transform: uppercase;
+}
+#dayWeek{
+	margin-top: 20px;
+	font-weight: bold;
+	font-size: 3em;
+}
+#misa{
+	margin: 20px;
+}
+#texto-titulo{
+	margin-bottom: 10px;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 1.3em;
+
+}
+#fiesta{
+	margin: 10px 0px;
+	font-weight: bold;
+}
+#fiesta-content{
+	background-color: #212121;
+}
+#fiesta-content #month{
+	color: white;
+}
+#fiesta-content .img-container{
+	width: 100%;
+    height: auto;
+    position: relative;
+}
+#fiesta-content img{
+	width: 100%;
+	padding: 20px;
+}
+#fiesta-content #day{
+	position: absolute;
+    bottom: 15%;
+    right: 10%;
+    font-size: 5em;
+    text-align: center;
+    min-width: 28%;
+}
+@media screen and (max-width: 992px) {
+	#fiesta-content #day{
+		font-size: 9.5em;
+    	bottom: 10%;
+    	right: 8%;
+	}
+}
+@media screen and (max-width: 800px) {
+	#fiesta-content #day{
+		    font-size: 7em;
+   			 bottom: 15%;
+    		right: 11%;
+
+	}
+}
+@media screen and (max-width: 601px) {
+	#fiesta-content #day{
+		font-size: 5.5em;
+    	bottom: 17%;
+    	right: 12%;
+
+	}
+}
+@media screen and (max-width: 501px) {
+	#fiesta-content #day{
+		font-size: 4.5em;
+    	bottom: 20%;
+    	right: 11%;
+
+	}
+}
+#fiesta-content #dayWeek{
+	color: white;
+	margin-top: -10px;
+}
+.sjdigital img{
+	    max-width: 180px;
+    margin-top: 10px;
+}
+.autor{
+	width: 100%;
+	margin: 5px 0px 10px 0px;
+	text-align: right;
+}
+.solucion{
+	display: none;
+	background-color: #424242;
+	padding: 2%;
+	color: white;
+}
+#texto .btn{
+	background-color: #424242;
+	width: 100%;
+    margin: 20px 0;
+}
+#texto .btn:hover, #texto .btn-large:hover {
+    background-color: #212121;
+}
+#texto ul li{
+	list-style-type: disc;
+    margin-left: 25px;
+}
+/* DATE PICKER */
+.picker__weekday-display{
+	background-color: #212121;
+}
+.picker__date-display{
+	background: #424242;
+}
+.picker__day.picker__day--today{
+	color: #212121;
+	font-weight: bold;
+}
+.picker__close, .picker__today{
+	color: #424242;
+}
+.picker__nav--prev:hover, .picker__nav--next:hover{
+	background: #e0e0e0;
+	color: #212121;
+}
+.no-day-image,.no-day-text{
+	text-align: center;
+	font-size: 2rem;
+}
+.no-day-image img{
+	width: 100px!important;
+}
+.parallax-texto{
+	margin-top: 4%;
+}
+.parallax-container{
+	height: 320px;
+}
+.disponible{
+	margin: 20px 0;
+}
+.disponible img{
+	width: 100%;
+	height: auto;
+	padding: 5px;
+}
+img.corazon-jesus{
+	margin: 5px;
+	height: 50px;
+}
+@media screen and (min-width: 993px) {
+	img.corazon-jesus{
+		height: 80px;
+		margin: 5px;
+	}
+	nav{
+		height: 85px;
+		line-height: 80px;
+	}
+}
+span.precio{
+	font-size: 1.6rem;
+}
+.card-action{
+	cursor: pointer;
+	transition: 1s;
+}
+.card-action:hover{
+	    box-shadow: 0 16px 28px 0 rgba(0,0,0,0.22), 0 25px 55px 0 rgba(0,0,0,0.21);
+}
